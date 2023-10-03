@@ -225,6 +225,40 @@ img {
 .hero-button:focus {
   background-color: #404bbf;
 }
+/*hero-overlay*/
+
+.hero-overlay .container {
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+  background: var(--DAIRY, #fcfcfc);
+}
+
+.modal-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+textarea {
+  resize: none;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 58px;
+}
 
 /*Features*/
 .features {
