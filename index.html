@@ -68,35 +68,6 @@
         </div>
       </section>
 
-      <!--hero-overlay-->
-      <section class="hero-overlay">
-        <div class="container">
-          <button type="button" class="close-modal">x</button>
-          <h3 class="modal-title">
-            Leave your contacts and we will call you back
-          </h3>
-          <form class="modal-form">
-            <label class="form-label"
-              >Name<input class="form-input" type="text" name="username" />
-            </label>
-            <label class="form-label"
-              >Phone <input class="form-input" type="tel" name="tel" />
-            </label>
-            <label class="form-label">
-              Email<input class="form-input" type="email" name="email" />
-            </label>
-            <label class="form-label">
-              Comment<textarea
-                class="form-input"
-                type="text"
-                name="comment"
-                placeholder="Text input"
-              ></textarea>
-            </label>
-          </form>
-        </div>
-      </section>
-
       <!--Features, no background-->
       <section class="features">
         <div class="container">
@@ -607,28 +578,57 @@
             </li>
           </ul>
         </div>
+
         <div class="footer-subscribe">
+          <p class="subscribe-title">Subscribe</p>
           <form class="footer-form" name="subscribe">
-            <label class="form-label">
-              Subscribe
-              <input
-                class="email-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-              />
-            </label>
+            <input
+              class="email-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+
+            <button class="form-button" type="submit" name="submit">
+              <span class="button-label">Subscribe</span>
+              <span class="button-icon">
+                <svg class="icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </span>
+            </button>
           </form>
         </div>
-        <button class="form-button" type="submit" name="submit">
-          <span class="button-label">Subscribe</span>
-          <span class="button-icon">
-            <svg class="icon" height="24" width="24">
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
-          </span>
-        </button>
       </div>
     </footer>
+
+    <!--hero-overlay-->
+    <section class="hero-overlay">
+      <div class="container">
+        <button type="button" class="close-modal">x</button>
+        <h3 class="modal-title">
+          Leave your contacts and we will call you back
+        </h3>
+        <form class="modal-form">
+          <label class="form-label"
+            >Name<input class="form-input" type="text" name="username" />
+          </label>
+          <label class="form-label"
+            >Phone <input class="form-input" type="tel" name="tel" />
+          </label>
+          <label class="form-label">
+            Email<input class="form-input" type="email" name="email" />
+          </label>
+          <label class="form-label">
+            Comment<textarea
+              class="form-input"
+              type="text"
+              name="comment"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
