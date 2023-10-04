@@ -603,17 +603,15 @@
     </footer>
 
     <!--hero-overlay-->
-    <section class="hero-overlay">
+    <div class="hero-overlay">
       <div class="overlay-container">
         <button type="button" class="close-modal">
           <svg class="icon" height="8" width="8">
-            <use href="./images/icons.svg#close-default"></use>
+            <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <h3 class="modal-title">
-          Leave your contacts and we will call you back
-        </h3>
-        <form class="modal-form">
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form" autocomplete="off">
           <label class="form-label"
             >Name<input class="form-input" type="text" name="username" />
           </label>
@@ -631,8 +629,9 @@
               placeholder="Text input"
             ></textarea>
           </label>
+          <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
-    </section>
+    </div>
   </body>
 </html>
