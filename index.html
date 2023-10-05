@@ -653,14 +653,32 @@
               </svg>
             </div>
           </div>
-          <div class="input-field">
+          <div class="comment-field">
             <label class="form-label" for="user-text"> Comment</label>
             <textarea
-              class="form-input"
+              class="textarea-input"
               name="user-text"
               placeholder="Text input"
               id="user-text"
             ></textarea>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              class="visually-hidden modal-checkbox"
+              id="privacy-agree"
+              name="privacy-agree"
+              value="true"
+            />
+            <label for="privacy-agree" class="checkbox-label">
+              <span class="checkbox-wrapper">
+                <svg class="checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox-def"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privacy-policy">Privacy Policy</a>
+            </label>
           </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
