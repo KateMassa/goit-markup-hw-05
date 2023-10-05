@@ -517,6 +517,7 @@ footer .social-media-icon .social-media-link:focus {
   display: inline-flex;
   min-width: 165px;
   padding: 8px 24px;
+  margin-left: 16px;
   height: 40px;
   justify-content: center;
   align-items: center;
@@ -739,7 +740,7 @@ footer .social-media-icon .social-media-link:focus {
   fill: transparent;
 }
 
-.checkbox-wrapper:checked {
+.checkbox-wrapper input[type="checkbox"]:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
