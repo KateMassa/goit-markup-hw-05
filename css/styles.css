@@ -517,7 +517,6 @@ footer .social-media-icon .social-media-link:focus {
   display: inline-flex;
   min-width: 165px;
   padding: 8px 24px;
-  margin-left: 16px;
   height: 40px;
   justify-content: center;
   align-items: center;
@@ -527,10 +526,13 @@ footer .social-media-icon .social-media-link:focus {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
-  gap: 16px;
   border-radius: 4px;
   cursor: pointer;
   border: none;
+}
+
+.icon-send {
+  margin-left: 16px;
 }
 
 /*hero-overlay*/
@@ -602,6 +604,11 @@ footer .social-media-icon .social-media-link:focus {
   fill: #fff;
   background-color: #404bbf;
   border: none;
+}
+
+.close-icon:hover,
+.close-icon:focus {
+  fill: #fff;
 }
 
 .modal-title {
