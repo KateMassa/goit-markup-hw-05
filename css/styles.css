@@ -669,6 +669,10 @@ footer .social-media-icon .social-media-link:focus {
   border-color: #2e2f42;
 }
 
+.input-wrap:focus-within .input-icon {
+  color: #4d5ae5;
+}
+
 .input-icon {
   position: absolute;
   fill: #2e2f42;
@@ -747,7 +751,7 @@ footer .social-media-icon .social-media-link:focus {
   fill: transparent;
 }
 
-.checkbox-wrapper input[type="checkbox"]:checked {
+.modal-checkbox:checked + .checkbox-label > .checkbox-wrapper {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
