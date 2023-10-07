@@ -664,12 +664,9 @@ footer .social-media-icon .social-media-link:focus {
   display: flex;
 }
 
-.input-wrap:focus-within .modal-input {
-  border-color: #2e2f42;
-}
-
 .form-input:focus .input-icon {
   fill: #4d5ae5;
+  border-color: #2e2f42;
 }
 
 .input-icon {
