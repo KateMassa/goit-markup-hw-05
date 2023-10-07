@@ -605,8 +605,8 @@ footer .social-media-icon .social-media-link:focus {
   border: none;
 }
 
-.close-icon:hover,
-.close-icon:focus {
+.close-modal:hover .close-icon,
+.close-modal:focus .close-icon {
   fill: #fff;
 }
 
@@ -668,8 +668,8 @@ footer .social-media-icon .social-media-link:focus {
   border-color: #2e2f42;
 }
 
-.input-wrap:focus-within .input-icon {
-  color: #4d5ae5;
+.form-input:focus .input-icon {
+  fill: #4d5ae5;
 }
 
 .input-icon {
