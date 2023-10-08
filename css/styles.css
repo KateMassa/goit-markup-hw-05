@@ -658,7 +658,7 @@ footer .social-media-icon .social-media-link:focus {
   border-color: #4d5ae5;
 }
 
-.form-input:focus .input-icon {
+.form-input:focus + .input-icon {
   fill: #4d5ae5;
 }
 
